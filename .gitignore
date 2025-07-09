@@ -1,0 +1,36 @@
+# Arquivos gerados pela Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Arquivos de projeto do Unity
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+
+# Arquivos do VS Code
+.vscode/
+
+# Arquivos do Asset Cache
+[Aa]ssets/AssetStoreTools*
+
+# Arquivos de autoria (ex: Photoshop, Blender)
+*.psd
+*.blend
+*.fbx
+
+# Arquivos de configuração local
+*.DS_Store
