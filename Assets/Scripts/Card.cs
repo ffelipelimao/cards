@@ -2,15 +2,20 @@ using UnityEngine;
 
 public class Card : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    public bool IsDragging;
+    public bool CanDrag;
+    public bool Played;
+
+    Canvas canvas;
+
+    public CardManager cardManager;
+
     void Start()
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        canvas = GameObject.Find("Canvas").GetComponent<Canvas>();
+        cardManager = GameObject.Find("CardManager").GetComponent<CardManager>();        
     }
+    
 }
